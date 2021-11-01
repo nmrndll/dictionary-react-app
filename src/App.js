@@ -9,7 +9,12 @@ export default function App() {
         <main>
           <Dictionary />
           </main>
-        <footer className="text-center">Coded by Naomi Randall</footer>
+       <footer className="text-center">
+       <small>Coded by Naomi Randall and is {" "}
+          <a href ="https://github.com/nmrndll/dictionary-react-app" rel="noreferrer" target="_blank"> open-sourced on GitHub </a>
+    and is hosted on <a href ="https://gallant-raman-08c0da.netlify.app/" rel="noreferrer" target="_blank">Netlify</a>
+    </small>
+    </footer>
       </div>
     </div>
   
